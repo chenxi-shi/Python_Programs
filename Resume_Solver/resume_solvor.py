@@ -48,7 +48,7 @@ def get_ability_info(_str):
         else:
             ability_sheet.append(0)
     return abilities._make(ability_sheet)
-
+    
 def get_owner(app_lst, all_page_str, file_type, _filename):
     # get the owner of the CV
     for app_name in app_lst:
